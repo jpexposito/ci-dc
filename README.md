@@ -25,7 +25,7 @@
 - [Azure Pipelines](azure-pipelines)
 - [GCP Tools](gcp-tools)
 - [Knative](knative)
-- [Netlify](netlify)
+- [Netlify](neflify)
 - [Heroku](heroku)
 - [GoCD](gocd)
 
