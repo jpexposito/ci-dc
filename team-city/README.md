@@ -32,23 +32,29 @@ TeamCity es un servidor de integración continua y manejo de builds desarrollado
 ### Licencia y descarga:<a name="licencia"></a>
 Esta herramienta es utilizable por cualquiera bajo licencia. La principal y que utilizaremos es una licencia “freemium” es decir, licencia gratuita, incluso para uso comercial, con algunos servicios limitados bajo pago. La limitación que recibe esta licencia es 100 configuraciones de build y 3 agentes de compilación como máximo. 
 Esto suele ser suficiente para desarrolladores en solitario, y para empresas la licencia de pago les permitiría configuraciones y agentes ilimitados.
-La descarga es sencilla, en nuestro caso utilizaremos Linux, y desde la página oficial de JetBrains podremos descargar el programa comprimido para su uso:
+La descarga es sencilla, en nuestro caso utilizaremos Linux, y desde la página oficial de JetBrains podremos descargar el programa comprimido para su uso:  
+
 ![Captura 16](img/captura16.png)<br/>
 
 ### Instalación:<a name="instalacion"></a>
-Como requisito previo a la utilización de TeamCity será necesario tener instalado Java JRE o JDK, ya que es una aplicación basada en Java. Comprobamos la versión de java y asignamos un JAVA_HOME en caso de que no lo haya:
+Como requisito previo a la utilización de TeamCity será necesario tener instalado Java JRE o JDK, ya que es una aplicación basada en Java. Comprobamos la versión de java y asignamos un JAVA_HOME en caso de que no lo haya:  
+![Captura 1](img/captura1.png)<br/>
 
 
-
-A continuación ya podremos ejecutar el script de inicio del servidor, ya que en Linux no requiere de instalación. Navegamos a la carpeta en la que se encuentra y ejecutamos el script runAll, que ejecuta el servidor con un agente por defecto:
+A continuación ya podremos ejecutar el script de inicio del servidor, ya que en Linux no requiere de instalación. Navegamos a la carpeta en la que se encuentra y ejecutamos el script runAll, que ejecuta el servidor con un agente por defecto:  
+![Captura 2](img/captura2.png)<br/>
 
 Con el parámetro “start” iniciaremos el servidor y cuando queramos cerrarlo lo ejecutaremos con “stop”.
 
 Ahora podremos acceder a la interfaz desde el navegador en local usando el puerto 8111.
-En primera ejecución habrá que realizar una configuración. Especificaremos el directorio de datos.
-Especificaremos la base de datos (En este caso la interna, para hacer pruebas).
-Y creamos una cuenta de administrador.
-Con todos estos pasos realizados la aplicación estará lista para usar:
+![Captura 3](img/captura3.png)<br/>
+En primera ejecución habrá que realizar una configuración. Especificaremos el directorio de datos.  
+![Captura 4](img/captura4.png)<br/>
+Especificaremos la base de datos (En este caso la interna, para hacer pruebas).  
+![Captura 5](img/captura5.png)<br/>
+Y creamos una cuenta de administrador.  
+Con todos estos pasos realizados la aplicación estará lista para usar:  
+![Captura 6](img/captura6.png)<br/>
 
 ### Herramientas con las que se relaciona:<a name="herramientas"></a>
 Al tratarse TeamCity de una herramienta creada por JetBrains está en continuo desarrollo y permite con el uso de plugins la integración con los principales IDEs, por ejemplo:
