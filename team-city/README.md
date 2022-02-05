@@ -125,8 +125,8 @@ Como podemos ver a continuacion podemos elegir con que “Runner” se ejecutar�
 
 Comprobamos que los pasos solo se ejecutarán si el anterior tuvo exito y ejecutamos nuestra build.  
 
-![Captura 12](img/captura10.png)<br/>
-![Captura 13](img/captura10.png)<br/>
+![Captura 12](img/captura12.png)<br/>
+![Captura 13](img/captura13.png)<br/>
 
 El resultado de la build habrá tenido éxito y podremos revisar paso por paso el resultado.  
 
