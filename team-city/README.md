@@ -1,16 +1,16 @@
 Joel Rodriguez Martín
 2º DAW
 
-#Team City: CI-CD
+# Team City: CI-CD
 
-##Indice
-[Introducción](#introduccion)    	
-[Historia](#historia)
-[Licencia y descarga](#licencia)
-[Instalación](#instalacion)
-[Herramientas con las que se relaciona](#herramientas)
-[Definición y ejemplo de pipeline](#pipeline)
-[Conclusión](#conclusion)
+## Indice
+[Introducción](#introduccion)      	
+[Historia](#historia)  
+[Licencia y descarga](#licencia)  
+[Instalación](#instalacion)  
+[Herramientas con las que se relaciona](#herramientas)  
+[Definición y ejemplo de pipeline](#pipeline)  
+[Conclusión](#conclusion)  
 
 
 ### Introduccion:<a name="introduccion"></a>
