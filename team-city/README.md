@@ -5,6 +5,8 @@ Joel Rodriguez Martín
    Team City: CI-CD 
 </h1>
 
+![Captura 1](img/logoteamcity.png)<br/>
+
 ## Indice
 [Introducción](#introduccion)<br/>          	
 [Historia](#historia)  
