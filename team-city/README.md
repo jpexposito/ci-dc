@@ -23,9 +23,9 @@ TeamCity es una herramienta utilizada para integración continua y manejo de bui
 
 ### Historia:<a name="historia"></a>
 TeamCity es un servidor de integración continua y manejo de builds desarrollado por JetBrains, empresa detrás de herramientas e IDEs tan conocidos como IntelliJ, PHPStorm y el lenguaje de programación Kotlin. Fue creado en 2006 y desde entonces sigue en continuo desarrollo y mantenimiento.
-<p align="right">
-<img src="img/logojet.png" alt="Sublime's custom image"/>
-</p>
+
+<img style="float: right;" src="img/logojet.png" alt="Sublime's custom image"/>
+
 
 ### Licencia y descarga:<a name="licencia"></a>
 Esta herramienta es utilizable por cualquiera bajo licencia. La principal y que utilizaremos es una licencia “freemium” es decir, licencia gratuita, incluso para uso comercial, con algunos servicios limitados bajo pago. La limitación que recibe esta licencia es 100 configuraciones de build y 3 agentes de compilación como máximo. 
