@@ -113,8 +113,12 @@ TeamCity escanea el repositorio y detecta automáticamente pasos para la build. 
 
 
 En la página de la build podremos añadirle nuevos pasos a la build o modificar los que tenemos, además de ejecutar los pasos actuales.
-Vamos a probar a añadirle un nuevo paso a nuestra build, antes de ejecutar el test de maven comprobaremos la versión de maven:
+Vamos a probar a añadirle un nuevo paso a nuestra build, antes de ejecutar el test de maven comprobaremos la versión de maven:  
 
+![Captura 10](img/captura10.png)<br/>
+
+![Captura 11](img/captura11.png)<br/>
+![Captura11](img/captura11.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 Como podemos ver podemos elegir con que “Runner” se ejecutará nuestro paso, permitiendo utilizar gran cantidad de herramientas como Docker, Maven e incluso proyectos de IDEs. En este caso utilizaremos la linea de compandos y colocaremos el script deseado en el campo de texto.
 
 
