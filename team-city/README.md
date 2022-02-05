@@ -123,15 +123,24 @@ Como podemos ver a continuacion podemos elegir con que “Runner” se ejecutar�
    <img src="img/captura11.png" />
 </p>
 
-Comprobamos que los pasos solo se ejecutarán si el anterior tuvo exito y ejecutamos nuestra build.
+Comprobamos que los pasos solo se ejecutarán si el anterior tuvo exito y ejecutamos nuestra build.  
 
-El resultado de la build habrá tenido éxito y podremos revisar paso por paso el resultado.
-TeamCity permite además generar y guardar los archivos que puedan producir nuestras pipeline y builds, por ejemplo .war o .zip:
+![Captura 12](img/captura10.png)<br/>
+![Captura 13](img/captura10.png)<br/>
+
+El resultado de la build habrá tenido éxito y podremos revisar paso por paso el resultado.  
+
+TeamCity permite además generar y guardar los archivos que puedan producir nuestras pipeline y builds, por ejemplo .war o .zip:  
+
+![Captura 14](img/captura14.png)<br/>
 En la página de build abajo a la derecha podremos publicar por ejemplo la carpeta target y TeamCity nos permitirá tener los .war publicados duirante la ejecución.
 
 
-Además en la sección triggers podremos programar ejecuciones con diferentes disparadores, por ejemplo en determinadas fechas o cuando ocurren determinadas acciones, a continuación ejemplo de una ejecución diaria:
-Estas dos particularidades le proporcionan a TeamCity una gran potencia ya que al automatizar tanto la ejecución como la recogida de resultados (.war, .zip, logs) y poder acceder a ellos desde la propia plataforma ahorrará al usuario gran cantidad de tiempo y trabajo.
+Además en la sección triggers podremos programar ejecuciones con diferentes disparadores, por ejemplo en determinadas fechas o cuando ocurren determinadas acciones, a continuación ejemplo de una ejecución diaria:  
+
+![Captura 15](img/captura15.png)<br/>
+
+Estas dos particularidades le proporcionan a TeamCity una gran potencia ya que al automatizar tanto la ejecución como la recogida de resultados (.war, .zip, logs) y poder acceder a ellos desde la propia plataforma ahorrará al usuario gran cantidad de tiempo y trabajo.  
 
 ### Conclusión:<a name="conclusion"></a>
 TeamCity es una herramienta para la integración continua con una gran potencia, respaldada por una empresa líder en el mercado. Esto hace que sea una herramienta ideal, ya que recibirá soporte durante años, además de estar fuertemente integrada con muchas herramientas de uso común hoy en día (Git, Docker, IDEs). A pesar de sus ventajas y potencia es una herramienta compleja, que requiere tiempo para adquirir soltura y en el caso de empresas grandes tiene un coste asociado a su uso.
