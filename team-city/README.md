@@ -117,8 +117,7 @@ Vamos a probar a añadirle un nuevo paso a nuestra build, antes de ejecutar el t
 
 ![Captura 10](img/captura10.png)<br/>
 
-![Captura 11](img/captura11.png)<br/>
-<img src="img/captura11.png" height="100px" width="100px" style="float:right;"/>
+<img src="img/captura11.png" style="float:right;"/>
 Como podemos ver podemos elegir con que “Runner” se ejecutará nuestro paso, permitiendo utilizar gran cantidad de herramientas como Docker, Maven e incluso proyectos de IDEs. En este caso utilizaremos la linea de compandos y colocaremos el script deseado en el campo de texto.
 
 
