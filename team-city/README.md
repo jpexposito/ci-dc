@@ -38,7 +38,9 @@ La descarga es sencilla, en nuestro caso utilizaremos Linux, y desde la página 
 
 ### Instalación:<a name="instalacion"></a>
 Como requisito previo a la utilización de TeamCity será necesario tener instalado Java JRE o JDK, ya que es una aplicación basada en Java. Comprobamos la versión de java y asignamos un JAVA_HOME en caso de que no lo haya:  
-![Captura 1](img/captura1.png)<br/>
+<p align="center">
+<img src="img/captura1.png"/>
+</p>
 
 
 A continuación ya podremos ejecutar el script de inicio del servidor, ya que en Linux no requiere de instalación. Navegamos a la carpeta en la que se encuentra y ejecutamos el script runAll, que ejecuta el servidor con un agente por defecto:  
