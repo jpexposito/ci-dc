@@ -1,46 +1,30 @@
 Joel Rodriguez Martín
 2º DAW
 
-Team City: CI-CD
+#Team City: CI-CD
+
+##Indice
+[Introducción](#introduccion)    	
+[Historia](#historia)
+[Licencia y descarga](#licencia)
+[Instalación](#instalacion)
+[Herramientas con las que se relaciona](#herramientas)
+[Definición y ejemplo de pipeline](#pipeline)
+[Conclusión](#conclusion)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Indice
-Introduccion	2
-Historia:	2
-Licencia y descarga:	2
-Instalación:	2
-Herramientas con las que se relaciona:	5
-Definición y ejemplo de pipeline:	6
-Conclusión:	9
-
-
-
-
-
-Introduccion
+### Introduccion:<a name="introduccion"></a>
 TeamCity es una herramienta utilizada para integración continua y manejo de builds. A continuación trataremos sus ventajas, desventajas y particularidades como herramienta de cara al desarrollo.
-Historia:
+
+### Historia:<a name="historia"></a>
 TeamCity es un servidor de integración continua y manejo de builds desarrollado por JetBrains, empresa detrás de herramientas e IDEs tan conocidos como IntelliJ, PHPStorm y el lenguaje de programación Kotlin. Fue creado en 2006 y desde entonces sigue en continuo desarrollo y mantenimiento.
-Licencia y descarga:
+
+### Licencia y descarga:<a name="licencia"></a>
 Esta herramienta es utilizable por cualquiera bajo licencia. La principal y que utilizaremos es una licencia “freemium” es decir, licencia gratuita, incluso para uso comercial, con algunos servicios limitados bajo pago. La limitación que recibe esta licencia es 100 configuraciones de build y 3 agentes de compilación como máximo. 
 Esto suele ser suficiente para desarrolladores en solitario, y para empresas la licencia de pago les permitiría configuraciones y agentes ilimitados.
 La descarga es sencilla, en nuestro caso utilizaremos Linux, y desde la página oficial de JetBrains podremos descargar el programa comprimido para su uso:
-Instalación:
+
+### Instalación:<a name="instalacion"></a>
 Como requisito previo a la utilización de TeamCity será necesario tener instalado Java JRE o JDK, ya que es una aplicación basada en Java. Comprobamos la versión de java y asignamos un JAVA_HOME en caso de que no lo haya:
 
 
@@ -54,7 +38,8 @@ En primera ejecución habrá que realizar una configuración. Especificaremos el
 Especificaremos la base de datos (En este caso la interna, para hacer pruebas).
 Y creamos una cuenta de administrador.
 Con todos estos pasos realizados la aplicación estará lista para usar:
-Herramientas con las que se relaciona:
+
+### Herramientas con las que se relaciona:<a name="herramientas"></a>
 Al tratarse TeamCity de una herramienta creada por JetBrains está en continuo desarrollo y permite con el uso de plugins la integración con los principales IDEs, por ejemplo:
 
 
@@ -79,7 +64,7 @@ Git: TeamCity permite al usuario la creación de proyectos desde repositorios de
 
 
 
-Definición y ejemplo de pipeline:
+### Definición y ejemplo de pipeline:<a name="pipeline"></a>
 Para demostrar la utilización de esta herramienta crearemos un proyecto y un pipeline de prueba.
 En primer lugar crearemos un proyecto de prueba desde la URL de un repositorio de Git:
 Este contendrá una app de ejemplo sencilla de Maven.
@@ -106,5 +91,6 @@ En la página de build abajo a la derecha podremos publicar por ejemplo la carpe
 
 Además en la sección triggers podremos programar ejecuciones con diferentes disparadores, por ejemplo en determinadas fechas o cuando ocurren determinadas acciones, a continuación ejemplo de una ejecución diaria:
 Estas dos particularidades le proporcionan a TeamCity una gran potencia ya que al automatizar tanto la ejecución como la recogida de resultados (.war, .zip, logs) y poder acceder a ellos desde la propia plataforma ahorrará al usuario gran cantidad de tiempo y trabajo.
-Conclusión:
+
+### Conclusión:<a name="conclusion"></a>
 TeamCity es una herramienta para la integración continua con una gran potencia, respaldada por una empresa líder en el mercado. Esto hace que sea una herramienta ideal, ya que recibirá soporte durante años, además de estar fuertemente integrada con muchas herramientas de uso común hoy en día (Git, Docker, IDEs). A pesar de sus ventajas y potencia es una herramienta compleja, que requiere tiempo para adquirir soltura y en el caso de empresas grandes tiene un coste asociado a su uso.
