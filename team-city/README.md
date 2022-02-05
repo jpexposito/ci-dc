@@ -75,11 +75,15 @@ Al tratarse TeamCity de una herramienta creada por JetBrains está en continuo d
 IDEs JetBrains: IDEA, PyCharm, PhpStorm… Todos estos IDEs al ser desarrollados por la misma empresa poseen plugins que integran directamente con TeamCity, permitiendo ver los datos de builds y pipelines, editarlos, lanzar builds etc. Todo desde el propio IDE, sin necesidad de acceder a la propia herramienta.
 
 
-
+<p align="center">
+   <img src="img/logoeclipse.png" height="100px" width="100px"/>
+</p>
 
 Eclipse: Eclipse posee un plugin diseñado para permitir lanzar builds y ver los resultados de builds anteriores desde su propia interfaz.
 
-
+<p align="center">
+   <img src="img/logocode.png" height="100px" width="100px"/>
+</p>
 
 Visual Studio Code: Este programa también incluye un plugin que permite utilizar toda la potencia de TeamCity desde el IDE, permitiendo al usuario hacer todas sus operaciones desde el mismo programa.
 
