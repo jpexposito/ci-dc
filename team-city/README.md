@@ -5,7 +5,7 @@ Joel Rodriguez Martín
    Team City: CI-CD 
 </h1>
 <p align="center">
-<img src="img/logoteamcity.png" alt="Sublime's custom image"/>
+<img src="img/logoteamcity.png" />
 </p>
 
 ## Indice
@@ -23,7 +23,7 @@ TeamCity es una herramienta utilizada para integración continua y manejo de bui
 
 ### Historia:<a name="historia"></a>
 <p align="center">
-<img src="img/logojet.png" alt="Sublime's custom image" height="100px" width="100px"/>
+<img src="img/logojet.png" height="100px" width="100px"/>
 </p>
 
 TeamCity es un servidor de integración continua y manejo de builds desarrollado por JetBrains, empresa detrás de herramientas e IDEs tan conocidos como IntelliJ, PHPStorm y el lenguaje de programación Kotlin. Fue creado en 2006 y desde entonces sigue en continuo desarrollo y mantenimiento.
@@ -42,12 +42,16 @@ Como requisito previo a la utilización de TeamCity será necesario tener instal
 
 
 A continuación ya podremos ejecutar el script de inicio del servidor, ya que en Linux no requiere de instalación. Navegamos a la carpeta en la que se encuentra y ejecutamos el script runAll, que ejecuta el servidor con un agente por defecto:  
-![Captura 2](img/captura2.png)<br/>
+<p align="center">
+<img src="img/captura2.png"/>
+</p>
 
 Con el parámetro “start” iniciaremos el servidor y cuando queramos cerrarlo lo ejecutaremos con “stop”.
 
 Ahora podremos acceder a la interfaz desde el navegador en local usando el puerto 8111.
-![Captura 3](img/captura3.png)<br/>
+<p align="center">
+<img src="img/captura3.png"/>
+</p>
 En primera ejecución habrá que realizar una configuración. Especificaremos el directorio de datos.  
 ![Captura 4](img/captura4.png)<br/>
 Especificaremos la base de datos (En este caso la interna, para hacer pruebas).  
