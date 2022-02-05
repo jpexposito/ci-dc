@@ -22,6 +22,7 @@ Joel Rodriguez Martín
 TeamCity es una herramienta utilizada para integración continua y manejo de builds. A continuación trataremos sus ventajas, desventajas y particularidades como herramienta de cara al desarrollo.
 
 ### Historia:<a name="historia"></a>
+![Captura 1](img/logojet.png)
 TeamCity es un servidor de integración continua y manejo de builds desarrollado por JetBrains, empresa detrás de herramientas e IDEs tan conocidos como IntelliJ, PHPStorm y el lenguaje de programación Kotlin. Fue creado en 2006 y desde entonces sigue en continuo desarrollo y mantenimiento.
 
 ### Licencia y descarga:<a name="licencia"></a>
