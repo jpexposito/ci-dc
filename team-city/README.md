@@ -82,7 +82,7 @@ IDEs JetBrains: IDEA, PyCharm, PhpStorm… Todos estos IDEs al ser desarrollados
 Eclipse: Eclipse posee un plugin diseñado para permitir lanzar builds y ver los resultados de builds anteriores desde su propia interfaz.
 
 <p align="center">
-   <img src="img/logocode.png" height="100px" width="100px"/>
+   <img src="img/logocode.jpg" height="100px" width="100px"/>
 </p>
 
 Visual Studio Code: Este programa también incluye un plugin que permite utilizar toda la potencia de TeamCity desde el IDE, permitiendo al usuario hacer todas sus operaciones desde el mismo programa.
