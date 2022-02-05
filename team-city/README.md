@@ -87,11 +87,11 @@ Eclipse: Eclipse posee un plugin diseñado para permitir lanzar builds y ver los
 
 Visual Studio Code: Este programa también incluye un plugin que permite utilizar toda la potencia de TeamCity desde el IDE, permitiendo al usuario hacer todas sus operaciones desde el mismo programa.
 
-
+<p align="center">
+   <img src="img/logogit.png" height="100px" width="100px"/>
+</p>
 
 Git: TeamCity permite al usuario la creación de proyectos desde repositorios de Git, permitiendo al usuario hacer pruebas sobre proyectos remotos.
-
-
 
 
 
@@ -99,12 +99,17 @@ Git: TeamCity permite al usuario la creación de proyectos desde repositorios de
 Para demostrar la utilización de esta herramienta crearemos un proyecto y un pipeline de prueba.
 En primer lugar crearemos un proyecto de prueba desde la URL de un repositorio de Git:
 Este contendrá una app de ejemplo sencilla de Maven.
-https://github.com/mkjetbrains/SimpleMavenSample
+https://github.com/mkjetbrains/SimpleMavenSample  
 
+![Captura 7](img/captura7.png)<br/>
 
-En este caso no será necesaria la identificación de usuario, pero en caso de ser un repositorio privado habría que introducirla.
+En este caso no será necesaria la identificación de usuario, pero en caso de ser un repositorio privado habría que introducirla.  
 
-TeamCity escanea el repositorio y detecta automáticamente pasos para la build. En este caso al ser un proyecto Maven nos sugiere como primer paso realizar un Maven clean test. Podemos aceptar los pasos sugeridos o añadirlos posteriormente si queremos. En este caso aceptaremos este primer paso.
+![Captura 8](img/captura8.png)<br/>
+
+TeamCity escanea el repositorio y detecta automáticamente pasos para la build. En este caso al ser un proyecto Maven nos sugiere como primer paso realizar un Maven clean test. Podemos aceptar los pasos sugeridos o añadirlos posteriormente si queremos. En este caso aceptaremos este primer paso.  
+
+![Captura 9](img/captura9.png)<br/>
 
 
 En la página de la build podremos añadirle nuevos pasos a la build o modificar los que tenemos, además de ejecutar los pasos actuales.
