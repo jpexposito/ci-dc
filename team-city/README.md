@@ -66,10 +66,10 @@ Con todos estos pasos realizados la aplicación estará lista para usar:
 Al tratarse TeamCity de una herramienta creada por JetBrains está en continuo desarrollo y permite con el uso de plugins la integración con los principales IDEs, por ejemplo:
 
 <p align="center">
-   <img src="img/logoide1.png" />
-   <img src="img/logoide2.png" />
-   <img src="img/logoide3.png" />
-   <img src="img/logoide4.png" />
+   <img src="img/logoide1.png" height="100px" width="100px"/>
+   <img src="img/logoide2.png" height="100px" width="100px"/>
+   <img src="img/logoide3.png" height="100px" width="100px"/>
+   <img src="img/logoide4.png" height="100px" width="100px"/>
 </p>
 
 IDEs JetBrains: IDEA, PyCharm, PhpStorm… Todos estos IDEs al ser desarrollados por la misma empresa poseen plugins que integran directamente con TeamCity, permitiendo ver los datos de builds y pipelines, editarlos, lanzar builds etc. Todo desde el propio IDE, sin necesidad de acceder a la propia herramienta.
