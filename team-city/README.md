@@ -4,7 +4,7 @@ Joel Rodriguez Martín
 # Team City: CI-CD
 
 ## Indice
-[Introducción](#introduccion)      	
+[Introducción](#introduccion)     	
 [Historia](#historia)  
 [Licencia y descarga](#licencia)  
 [Instalación](#instalacion)  
