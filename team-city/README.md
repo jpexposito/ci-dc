@@ -1,7 +1,9 @@
 Joel Rodriguez Martín
 2º DAW
 
-<p style="text-align: center;"># Team City: CI-CD</p>
+<p align="center"> 
+  # Team City: CI-CD 
+</p>
 
 ## Indice
 [Introducción](#introduccion)<br/>          	
