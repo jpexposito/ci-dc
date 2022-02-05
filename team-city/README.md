@@ -133,7 +133,7 @@ El resultado de la build habrá tenido éxito y podremos revisar paso por paso e
 TeamCity permite además generar y guardar los archivos que puedan producir nuestras pipeline y builds, por ejemplo .war o .zip:  
 
 ![Captura 14](img/captura14.png)<br/>
-En la página de build abajo a la derecha podremos publicar por ejemplo la carpeta target y TeamCity nos permitirá tener los .war publicados duirante la ejecución.
+En la página de build abajo a la derecha podremos publicar por ejemplo la carpeta target y TeamCity nos permitirá tener los .war publicados durante la ejecución.
 
 
 Además en la sección triggers podremos programar ejecuciones con diferentes disparadores, por ejemplo en determinadas fechas o cuando ocurren determinadas acciones, a continuación ejemplo de una ejecución diaria:  
