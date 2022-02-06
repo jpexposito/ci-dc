@@ -1,29 +1,42 @@
-<h1 align="center">Rick and Morty</h1>
+# Netlify and GitHub Actions CI/CD Pipeline
 
-<p align="center">
-  <img src="img/banner.gif"/>
-</p>
+Example React project using a CI/CD Pipeline using Netlify for CD, GitHub Actions for CI, and Cypress for testing.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-v1.0-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/github/repo-size/shakarr/rick-morty-vue?style=for-the-badge" />
-  <img src="https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=blue&up_message=online&url=https%3A%2F%2Fshakar-rick-morty.netlify.app%2F" />
-</p>
+- **[Tutorial on Dev.to](https://dev.to/curtiscodes/)**
+- **[Production website](https://netlify-github-pipeline.netlify.app/)**
+- **[Development website](https://dev-netlify-github-pipeline.netlify.app/)**
 
-## Project setup
-```
-yarn install
-```
+![Development workflow](https://github.com/danielcurtis/netlify-github-pipeline/workflows/Development%20workflow/badge.svg?branch=feature%2Fchange-app-text)![Test workflow](https://github.com/danielcurtis/netlify-github-pipeline/workflows/Test%20workflow/badge.svg?branch=dev)![Production workflow](https://github.com/danielcurtis/netlify-github-pipeline/workflows/Production%20workflow/badge.svg)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Prerequisites
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- [NodeJS](https://nodejs.org/en/download/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Installation
+
+1. Clone the repo: `git clone https://github.com/danielcurtis/netlify-github-pipeline.git`
+2. Install dependancies: `npm install`
+3. Start the local dev server: `npm run start`
+4. Test the app using React's testing lib: `npm run test`
+5. Create production build: `npm run build`
+
+## Contributing
+
+1. Follow the installation instructions
+2. Create a feature branch from dev
+3. Bump the version following [semantic versioning](https://semver.org/)
+4. Create a PR into the **`dev`** branch
+
+## Author & Acknowledgements
+
+#### Author
+
+- Daniel Curtis - [@codescurtis](https://twitter.com/codescurtis) [CurtisCodes.com](https://curtiscodes.com)
+
+#### Acknowledgements
+
+- [Build with GitHub Actions, host on Netlify](https://medium.com/@MarekPukaj/build-with-github-actions-host-on-netlify-ebf5fa505616)
+
+## License
+
+[MIT](https://github.com/danielcurtis/netlify-github-pipeline/main/LICENSE)
