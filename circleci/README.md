@@ -38,7 +38,7 @@ Indice
 **CircleCI** es una de las plataformas de integración continua y despliegue continuo **(CI/CD)**
 más grandes del mundo. Procesar más de **1 millón de desarrollos por día**.
 
-Empresas como Spotify, Coinbase, Stitch Fix y BuzzFeed utilizan esta solución para mejorar la productividad del equipo
+Empresas como **Spotify, Coinbase, Stitch Fix y BuzzFeed** utilizan esta solución para mejorar la productividad del equipo
 de ingeniería, lanzar mejores productos y salir al mercado más rápido.
 
 
@@ -49,12 +49,14 @@ de ingeniería, lanzar mejores productos y salir al mercado más rápido.
 
 En su versión básica, CircleCI es gratuito.
 
-La cuenta gratuita nos permitirá trabajar con contenedores de DockerHub o del propio repositorio de CircleCI y ejecutar
-hasta 30 tareas por proyecto.
+La cuenta gratuita nos permitirá trabajar con contenedores de **DockerHub** o del propio
+repositorio de CircleCI y ejecutar hasta 30 tareas por proyecto.
 
-Dispone de dos cuentas de pago "Performance" y "Scale" que añaden más tiempo de uso, mayor potencia de procesado, grupos de trabajo y asistencia 24/7.
+Dispone de dos cuentas de pago **"Performance"** y **"Scale"** que añaden más tiempo de uso,
+mayor potencia de procesado, grupos de trabajo y asistencia 24/7.
 
-Además puedes modificar tu cuenta gratuita para añadir solo lo que necesites y pagar solo por lo que vas a usar.
+Además puedes modificar tu cuenta gratuita para añadir solo lo que necesites y pagar
+solo por lo que vas a usar.
 
 
 
@@ -63,10 +65,10 @@ Además puedes modificar tu cuenta gratuita para añadir solo lo que necesites y
 
 ## **3. Parte 3**<a name="id3"></a>
 
-Al acceder a CircleCI por primera vez nos pedirá crear una cuenta o loguearnos con GitHub.
+Al acceder a CircleCI por primera vez nos pedirá crear una cuenta o acceder con GitHub.
 
 Al loguearnos, nos pedirá que le indiquemos que repositorio vamos a usar. 
-Una vez lo hayamos elegido nos creará un ejemplo de Hello World y lo ejecutará. 
+Una vez lo hayamos elegido nos creará un ejemplo de **Hello World** y lo ejecutará. 
 Como se ve en la imagen a continuación. 
 
 
@@ -74,23 +76,23 @@ Como se ve en la imagen a continuación.
 
 ## **4. Parte 4**<a name="id4"></a>
 
-También podremos añadir otros repositorios si nos dirigimos al menú "Projects" 
+También podremos añadir otros repositorios si nos dirigimos al menú **"Projects"** 
 
 ![](imagenes/7.PNG)
 
 ## **5. Parte 5**<a name="id5"></a>
 
-Si clicamos sobre el proyecto y luego en "Project Settings" añadir Triggers para que se ejecute a determinadas horas,
+Si clicamos sobre el proyecto y luego en **"Project Settings"** podremos añadir Triggers para que se ejecute a determinadas horas,
 o bajo determinadas circunstancias, crear variables de entorno propias para usar dentro del proyecto, administrar las 
 notificaciones que vamos a recibir al desplegar el proyecto o incluso crear 
-"Badges" para añadir a paginas web o a documentos en Markdown que nos indican en tiempo real el estado de el último despliegue. 
+"Badges" para añadir a páginas web o a documentos en Markdown que nos indican en tiempo real el estado de el último despliegue. 
 Como este : [![CircleCI](https://circleci.com/gh/InKu3uS/CircleCI/tree/main.svg?style=svg)](https://circleci.com/gh/InKu3uS/CircleCI/tree/main)
 
 ![](imagenes/3.PNG)
 
 ## **6. Parte 6**<a name="id6"></a>
 
-Para este caso, he usado una aplicación muy sencilla en Python. Que contiene una función que recibe dos números y los suma, y un otra función que llama a la anterior y realiza la suma de 5+5
+Para este caso, he usado una aplicación muy sencilla en **Python.** Que contiene una función que recibe dos números y los suma, y un otra función que llama a la anterior y realiza la suma de 5+5
 
 ![](imagenes/4.PNG)
 
@@ -98,7 +100,7 @@ Y también un test que comprueba que el resultado de sumar los números 2 y 3 se
 
 ![](imagenes/5.PNG)
 
-Y subimos los cambios al repositorio de GitHub.
+Y subimos los cambios al repositorio de **GitHub.**
 
 
 ![](imagenes/6.PNG)
