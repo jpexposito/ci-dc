@@ -55,11 +55,15 @@ Ahora podremos acceder a la interfaz desde el navegador en local usando el puert
 <img src="img/captura3.png"/>
 </p>
 En primera ejecución habrá que realizar una configuración. Especificaremos el directorio de datos.  
+
 ![Captura 4](img/captura4.png)<br/>
 Especificaremos la base de datos (En este caso la interna, para hacer pruebas).  
+
 ![Captura 5](img/captura5.png)<br/>
+
 Y creamos una cuenta de administrador.  
 Con todos estos pasos realizados la aplicación estará lista para usar:  
+
 ![Captura 6](img/captura6.png)<br/>
 
 ### Herramientas con las que se relaciona:<a name="herramientas"></a>
