@@ -1,7 +1,7 @@
 <div align="justify">
 
 
-# Despliegue y CI / CD con Netlify <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg" >
+# Despliegue y CI / CD con Netlify <img src="https://media-exp1.licdn.com/dms/image/C560BAQG8HTJEoqPI4Q/company-logo_200_200/0/1625843974996?e=2159024400&v=beta&t=VruK-Bp_G73A3mknEVm5vhouTo6kqn79zJ8BvQgRvpo" width="80px" >
 
 
 
