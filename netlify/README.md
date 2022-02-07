@@ -1,4 +1,4 @@
-﻿# Despliegue y CI / CD con netlify
+﻿# Despliegue y CI / CD con Netlify
 
 - **Nombre: Ridel**
 - **Apellidos: Saavedra Flores**
