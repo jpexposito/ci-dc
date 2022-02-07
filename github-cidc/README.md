@@ -82,7 +82,7 @@ Como se ve en el comando, usa una variable que vamos a definir en un fichero "ac
 
 Lo mas importante de este fichero es el apartado "inputs" donde podemos ver la variable declarada.
 
-Con esto realizado vamos a crear el Workflow para ello creamos la capeta "workflows" y dentro el archivo yml.
+Con esto realizado vamos a crear el Workflow, para ello creamos la capeta "workflows" y dentro el archivo yml.
 
 ![main.yml](img/07-action-bloc.png)
 
