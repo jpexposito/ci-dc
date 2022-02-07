@@ -179,6 +179,7 @@ Vemos en tiempo real, la salida de consola, como podemos observar nuestro peque�
 > Curso: **2º DAW-DPL**
 
 > Título: **Compilación en TRAVIS CI**
+<p align="right"><img src="https://user-images.githubusercontent.com/73592097/152792000-f94624da-49ec-4d77-bf07-938515f07d53.png" width="200px"/></p>
 
 ***
 
