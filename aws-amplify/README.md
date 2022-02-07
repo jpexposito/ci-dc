@@ -1,4 +1,4 @@
-# Apmplify
+# Amplify
 
 > "Cree aplicaciones móviles y web de pila completa extensibles con mayor rapidez. Fácil de comenzar, fácil de escalar."
 
