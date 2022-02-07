@@ -1,4 +1,9 @@
-﻿# Despliegue y CI / CD con Netlify
+<div align="justify">
+
+
+# Despliegue y CI / CD con Netlify <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg" >
+
+
 
 - **Nombre: Ridel**
 - **Apellidos: Saavedra Flores**
@@ -242,3 +247,5 @@ esto lo que hará es que cada vez que hagamos un pull, cypress abrirá la app en
 <p align="center">
     <img src="img/Aspose.Words.8a68f0a9-7f37-491c-a814-d0285d7cc175.036.png"/>
 </p>
+
+</div>
