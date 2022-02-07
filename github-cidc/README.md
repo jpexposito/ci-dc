@@ -9,7 +9,7 @@ Entonces aparece GitHub Actions, con esto podemos realizar todos las tareas de i
 
 Actions es una herramienta que nos ayuda a reducir los pasos necesarios para la ejecución de código, mediante la creación de un "workflow" encargado de realizar diferentes accion al producirse un cambio como puede ser "push", "merge" ó "pull", algo como una Pipelina en Jenkins. Nos permite crear workflows que se pueden utilizar para compilar, testear y desplegar código.
 
-**¿Como puede hacer esto GitHub?**
+**¿Como puede hacer esto GitHub?** 
 Resulta que Actions usa paquetes de códigos en Docker, los cuales se lanzan en los servidores de GitHub que ademas son compatibles con cualquier lenguaje.
 
 ## 2. Continuous Integration ( CI ).
@@ -18,7 +18,7 @@ Resulta que Actions usa paquetes de códigos en Docker, los cuales se lanzan en 
 Para implementar la integración continua en Github lo que se hace es crear uno o varios workflows que se lanzan cuando se realiza un "pull request" y si todos las comprobaciones son correctas se mezcla.
 
 ## 3. Continuous Deployment ( CD ).
-**¿Qué es la implmentación continua?**
+**¿Qué es la implementación continua?**
 "La implementación continua es un proceso que usa pruebas automatizadas para comprobar si los cambios son correctos y estables para la implementación en un entorno de producción".
 Para implementar estas tareas en GitHub action realizamos workflow que se lancen una vez realizo un pull request mezclado o se ha realizado un push.
 
@@ -50,7 +50,7 @@ Puntos de sintaxis básica:
 
 
 ## 5. Ejemplo.
-Ahora se va ver un ejemplo de Workflow de un "Hello World!!" muy básico.
+Ahora se va a ver un ejemplo de Workflow de un "Hello World!!" muy básico.
 
 
 Primero de todos creamos un nuevo repositorio en nuestro Github y en el añadimos la siguiente estructura. El README  y LICENSE son opcionales.
@@ -66,7 +66,7 @@ Ademas en nuestro caso esto se ha realizando en otra rama que hemos llamado:
 
 
 
-Como se ve en la estructura, creamos un fichero Dockerfile. Como vemos es un contenedor Debian que añade a un fichero, con una serie de permisos y el ENTRYPOINT que apunta al fichero.
+Como se ve en la estructura, creamos un fichero Dockerfile. Este es un contenedor Debian que añade a un fichero, con una serie de permisos y el ENTRYPOINT es le dice a Dockerfile donde esta el fichero.
  
 ![Dockerfile](img/03-dockerfile.png)
 
