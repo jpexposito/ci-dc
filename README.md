@@ -25,7 +25,7 @@
 - [Azure Pipelines](azure-pipelines)
 - [Buildkite](buildkite)
 - [CloudBees](cloudbees)
-- [Netlify](neflify)
+- [Netlify](netlify)
 - [Heroku](heroku)
 - [GoCD](gocd)
 

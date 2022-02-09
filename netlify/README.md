@@ -1,19 +1,25 @@
-﻿# Despliegue y CI / CD con netlify
+<div align="justify">
+
+
+# Despliegue y CI / CD con Netlify <img src="https://media-exp1.licdn.com/dms/image/C560BAQG8HTJEoqPI4Q/company-logo_200_200/0/1625843974996?e=2159024400&v=beta&t=VruK-Bp_G73A3mknEVm5vhouTo6kqn79zJ8BvQgRvpo" width="80px" >
+
+
 
 - **Nombre: Ridel**
 - **Apellidos: Saavedra Flores**
+- **GitHub:** https://github.com/shakarr/
 
 # índice
 
-- [1. Introducción](#_page2_x56.70_y68.70)
-  - [1.1 ¿Qué es Netlify?](#_page2_x56.70_y105.65)
-  - [1.2 Objetivo](#_page2_x56.70_y194.75)
-- [2. Instalación y configuración](#_page2_x56.70_y270.00)
-- [3. Despliegue de una app con vue.js](#_page3_x56.70_y56.70)
-- [4. CI/CD Pipeline con Netlify y github actions](#_page7_x56.70_y214.80)
-  - [4.1 Configurar el entorno](#_page7_x56.70_y251.75)
-  - [4.2 Configurar el github workflow](#_page9_x56.70_y232.85)
-  - [4.3 Testeando el Workflow](#_page11_x56.70_y623.95)
+- [1. Introducción](#1-introducción)
+  - [1.1 ¿Qué es Netlify?](##11-qué-es-netlify)
+  - [1.2 Objetivo](##12-objetivo)
+- [2. Instalación y configuración](#2-instalación-y-configuración)
+- [3. Despliegue de una app con react](#3-despliegue-de-una-app-con-react)
+- [4. CI/CD Pipeline con Netlify y github actions](#4-cicd-pipeline-con-netlify-y-github-actions)
+  - [4.1 Configurar el entorno](#41-configurar-el-entorno)
+  - [4.2 Configurar el github workflow](#42-configurar-el-github-workflow)
+  - [4.3 Testeando el Workflow](#43-testeando-el-workflow)
 
 # 1. Introducción
 
@@ -41,7 +47,7 @@ y ya podríamos acceder al dashboard
 
 nos pedirá algunas configuraciones, como un nombre de equipo y algunas otras más
 
-# 3. Despliegue de una app con vue.js
+# 3. Despliegue de una app con react
 
 Una vez echo los pasos del apartado anterior, deberíamos tener un dashboard como el siguiente:
 
@@ -110,7 +116,6 @@ y como vemos ya se ha cambiado el nombre de nuestra app
 <p align="center">
     <img src="img/Aspose.Words.8a68f0a9-7f37-491c-a814-d0285d7cc175.013.png"/>
 </p>
-
 
 # 4. CI/CD Pipeline con Netlify y github actions
 
@@ -242,3 +247,5 @@ esto lo que hará es que cada vez que hagamos un pull, cypress abrirá la app en
 <p align="center">
     <img src="img/Aspose.Words.8a68f0a9-7f37-491c-a814-d0285d7cc175.036.png"/>
 </p>
+
+</div>
