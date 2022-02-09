@@ -55,7 +55,7 @@ Una vez realizado el paso anterior, podemos empezar a crear nuestro pipeline.
 Como hemos visto en Jenkins, se puede hacer tanto desde la propia plataforma o 
 desde ficheros externos a la plataforma.
 
-Primero veamos como a ver como se crea desde la plataforma.
+Primero veamos como se crea desde la plataforma.
 Tendremos que crear los steps: que son los pasos a seguir mediante los comandos
 que vemos a continuación.
 
