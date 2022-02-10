@@ -447,3 +447,7 @@ Aunque intenté adaptar esto lo más que pude, finalmente aunque en local funcio
 En conclusión, es cierto lo que dicen, te permite crear aplicacion visualmente de forma rápida, facil y sin experiencia en la nube, pero no terminan de guiarte del todo bien y se te puede hacer complicado conseguir que todo funcione ya no con experiencia en la nube, sino con experiencia en el servicio.
 
 Personalmente no me ha dejado un buen sabor de boca, las herramientas utilizadas en clase me han parecido más sencillas y útiles, además de ser gratuitas.
+
+
+AWS Amplify [amplify](https://aws.amazon.com/es/amplify/)
+Documentación oficial [documentación](https://docs.amplify.aws/)
