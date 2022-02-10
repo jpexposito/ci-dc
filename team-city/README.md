@@ -148,3 +148,8 @@ Estas dos particularidades le proporcionan a TeamCity una gran potencia ya que a
 
 ### Conclusión:<a name="conclusion"></a>
 TeamCity es una herramienta para la integración continua con una gran potencia, respaldada por una empresa líder en el mercado. Esto hace que sea una herramienta ideal, ya que recibirá soporte durante años, además de estar fuertemente integrada con muchas herramientas de uso común hoy en día (Git, Docker, IDEs). A pesar de sus ventajas y potencia es una herramienta compleja, que requiere tiempo para adquirir soltura y en el caso de empresas grandes tiene un coste asociado a su uso.
+
+## Referencias
+Descarga oficial - https://www.jetbrains.com/es-es/teamcity/
+Documentación oficial - https://www.jetbrains.com/help/teamcity/teamcity-documentation.html
+
