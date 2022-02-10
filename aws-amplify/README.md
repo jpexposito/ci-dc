@@ -449,5 +449,6 @@ En conclusión, es cierto lo que dicen, te permite crear aplicacion visualmente 
 Personalmente no me ha dejado un buen sabor de boca, las herramientas utilizadas en clase me han parecido más sencillas y útiles, además de ser gratuitas.
 
 
-AWS Amplify [amplify](https://aws.amazon.com/es/amplify/)
-Documentación oficial [documentación](https://docs.amplify.aws/)
+[AWS Amplify](https://aws.amazon.com/es/amplify/)
+
+[Documentación oficial](https://docs.amplify.aws/)
