@@ -183,4 +183,10 @@ Vemos en tiempo real, la salida de consola, como podemos observar nuestro peque√
 
 ***
 
+Fuentes:
+
+- https://docs.travis-ci.com/
+- https://carlosazaustre.es/travis-despliegue-integracion-continua
+- https://www.freecodecamp.org/espanol/news/como-automatizar-el-despliegue-en-github-pages-con-travis-cl/
+- https://www.coursera.org/lecture/continuous-integration/dockerization-on-travis-d9dl3
 
