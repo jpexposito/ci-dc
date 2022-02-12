@@ -6,17 +6,19 @@
 
 ## Índice
 
-- [¿Qué es Bamboo?](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#qu%C3%A9-es-bamboo)
-- [¿Cómo funciona?](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#c%C3%B3mo-funciona)
-- [Requisitos](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#requisitos)
-- [Instalación](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#instalaci%C3%B3n)
-- [Configuración](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#configuraci%C3%B3n)
-- [Creación de un proyecto en Git](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#creaci%C3%B3n-de-un-proyecto-en-git)
-- [Creación de un agente](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#creaci%C3%B3n-de-un-agente)
-- [Creación de un plan](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#creaci%C3%B3n-de-un-plan)
-- [Crear tareas](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#crear-tareas)
-- [Ejecución de un plan](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#ejecuci%C3%B3n-de-un-plan)
-- [Conclusión](https://github.com/jpexposito/ci-dc/tree/main/bamboo/Empezando%20en%20Bamboo.md#conclusi%C3%B3n)
+- [¿Qué es Bamboo?](https://github.com/jpexposito/ci-dc/blob/main/bamboo/README.md#qu%C3%A9-es-bamboo)
+- [¿Cómo funciona?](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#c%C3%B3mo-funciona)
+- [Requisitos](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#requisitos)
+- [Instalación](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#instalaci%C3%B3n)
+- [Configuración](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#configuraci%C3%B3n)
+- [Creación de un proyecto en Git](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#creaci%C3%B3n-de-un-proyecto-en-git)
+- [Creación de un agente](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#creaci%C3%B3n-de-un-agente)
+- [Creación de un plan](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#creaci%C3%B3n-de-un-plan)
+- [Crear tareas](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#crear-tareas)
+- [Ejecución de un plan](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#ejecuci%C3%B3n-de-un-plan)
+- [Conclusión](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#conclusi%C3%B3n)
+- [Referencias](https://github.com/jpexposito/ci-dc/tree/main/bamboo/README.md#referencias)
+
 ---
 
 ## ¿Qué es Bamboo?
@@ -382,3 +384,11 @@ Para poder ver el plano general de nuestro plan podriamos ir a su home donde ver
 ## Conclusión
 
 La herramienta es compleja de entender en el caso de que no tengas conocimientos básicos anteriormente, sin embargo se puede ver todo el potencial que tiene sin tener que indagar demasiado en el servicio. El software está adaptado para poder interactuar con muchas otras herramientas sin tener que contar con difíciles instalaciones por lo que ayuda a que sea más cómoda para el usuario y por lo tanto facilite el trabajo que en otras herramientas no sería tan sencillo.
+
+---
+
+## Referencias
+
+- [Página oficial de Bamboo Atlassian](https://www.atlassian.com/es/software/bamboo)
+- [Instalación de Bamboo Atlassian](https://confluence.atlassian.com/bamboo/installing-bamboo-on-linux-289276792.html)
+- [Tasks en Bamboo Atlassian](https://confluence.atlassian.com/bamboo/configuring-tasks-289277036.html)
