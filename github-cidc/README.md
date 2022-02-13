@@ -134,3 +134,11 @@ Seleccionamos el plan.
 Autorizamos la aplicación.
 
 ![Marketplace](img/marktspace03.PNG)
+
+## Referencias
+ - [Documentación oficial](https://docs.github.com/en/actions)
+ - [Opciones de maquinas virtuales](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idruns-on)
+ - [MarketPlace](https://github.com/marketplace?type=)
+ - [Curso GitHub Actions](https://lab.github.com/githubtraining/github-actions:-hello-world)
+ - [CI/CD con GitHub Actions](https://jorgehrj.medium.com/ci-cd-con-github-actions-66a7c325f45f)
+ - [GitHub Actions Quickstart](https://docs.github.com/es/actions/quickstart)
