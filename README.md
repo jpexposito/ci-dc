@@ -23,9 +23,9 @@
 - [AWS CodePipeline](aws-codePipeline)
 - [AWS Amplify](aws-amplify)
 - [Azure Pipelines](azure-pipelines)
-- [GCP Tools](gcp-tools)
-- [Knative](knative)
-- [Netlify](neflify)
+- [Buildkite](buildkite)
+- [CloudBees](cloudbees)
+- [Netlify](netlify)
 - [Heroku](heroku)
 - [GoCD](gocd)
 
