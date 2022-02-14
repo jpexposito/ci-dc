@@ -1,3 +1,5 @@
+<div align="justify">
+
 ﻿# AWS CodePipeline
 
 ![](./Img/Logo.png)
@@ -16,7 +18,7 @@ CodePipeline se relaciona con diferentes herramientas las cuales son Bitbucket,J
 
 ## Definición y ejemplo de un pipeline
 
-En CodePipeline se define de la siguiente manera 
+En CodePipeline se define de la siguiente manera
 
     version: 0.2
 
@@ -80,3 +82,5 @@ Desventajas de AWS CodePipeline
 No se puede utilizar para configurar repositorios de código localmente
 
 Es una herramienta de pago si tienes más de un Pipeline en funcionamiento.No tiene un precio fijo sino que depende de la cantidad de servicios de AWS que uses.
+
+</div>

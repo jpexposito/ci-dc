@@ -1,10 +1,11 @@
+<div align="justify">
 
 # GitHub CI/CD Marketplace
 
 ![Logo](img/logo.png)
 
 ## 1. Introducción.
-Es cierto que actualmente hay multitud de herramientas para poder automatizar tareas de integración y despliegue continuos, pero ninguna permite tenerlo integrado en tu propios software de repositorio de código. 
+Es cierto que actualmente hay multitud de herramientas para poder automatizar tareas de integración y despliegue continuos, pero ninguna permite tenerlo integrado en tu propios software de repositorio de código.
 Entonces aparece GitHub Actions, con esto podemos realizar todos las tareas de integración y despliegue, como son batería de test, comprobación del código o desplegar nuestra aplicación, todo desde GitHub.
 
 Actions es una herramienta que nos ayuda a reducir los pasos necesarios para la ejecución de código, mediante la creación de un "workflow" encargado de realizar diferentes accion al producirse un cambio como puede ser "push", "merge" ó "pull", algo como una Pipelina en Jenkins. Nos permite crear workflows que se pueden utilizar para compilar, testear y desplegar código.
@@ -24,7 +25,7 @@ Para implementar la integración continua en Github lo que se hace es crear uno 
 **"Con el despliegue continuo se va un paso más allá de la entrega continua, automatizando todo el proceso de entrega de software al usuario, eliminando la acción manual o intervención humana necesaria en la entrega continua.".**
 
 No confundir con la entrega continua (continuous delivery).\
-**"La entrega continua CI/CD (continuous delivery) está relacionada con la integración continua y consiste en la automatización del proceso de entrega del software, permitiendo que pueda ser implementado en producción de forma confiable y sencilla."** 
+**"La entrega continua CI/CD (continuous delivery) está relacionada con la integración continua y consiste en la automatización del proceso de entrega del software, permitiendo que pueda ser implementado en producción de forma confiable y sencilla."**
 
 Para implementar estas tareas en GitHub action realizamos workflows que se lancen una vez se acepta un pull request o se ha realizado un push.
 
@@ -38,9 +39,9 @@ Ejemplo
 Puntos de sintaxis básica:
 - "name": apartado opcional para el nombre del workflows.
 - "on": especifica el evento que ejecutara el fichero, si quieres especificar rama hacer lo siguiente.
-      
+
 ![Añadir branch](img/ejemplo-rama.PNG)
-	
+
 
 - "jobs": aquí se especifican los jobs que pueden ser uno o mas.
 - "build": declaración del nombre del primer "jobs", este lina es obligatoria.
@@ -68,7 +69,7 @@ Ademas en nuestro caso esto se ha realizando en otra rama que hemos llamado:
 
 
 Como se ve en la estructura, creamos un fichero Dockerfile. Este es un contenedor Debian al que se le va a añadir script, con una permisos de ejecución y la ultima linea localiza ese fichero en nuestra estructura para que lo pueda añadir.
- 
+
 ![Dockerfile](img/03-dockerfile.png)
 
 
@@ -142,3 +143,5 @@ Autorizamos la aplicación.
  - [Curso GitHub Actions](https://lab.github.com/githubtraining/github-actions:-hello-world)
  - [CI/CD con GitHub Actions](https://jorgehrj.medium.com/ci-cd-con-github-actions-66a7c325f45f)
  - [GitHub Actions Quickstart](https://docs.github.com/es/actions/quickstart)
+
+</div>

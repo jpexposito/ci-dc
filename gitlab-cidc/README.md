@@ -1,3 +1,5 @@
+<div align="justify">
+
 Daniel de Jesús Álvarez Miranda         2º DAW
 
 # GitLab CI/CD
@@ -317,3 +319,5 @@ Y como podemos observar, ahora han pasado los test y está todo correcto.
 https://docs.gitlab.com/
 
 https://www.youtube.com/watch?v=2W95rnyU6co
+
+</div>

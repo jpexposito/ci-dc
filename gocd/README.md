@@ -1,4 +1,6 @@
-<h1 style="text-align: center;"> GoCD 
+<div align="justify">
+
+<h1 style="text-align: center;"> GoCD
 
 <img src="img/GoCD-logo.jpg" style="margin-top: 1rem; max-width: 50%;">
 
@@ -21,7 +23,7 @@
 - [4. Creación de un Pipeline](#4-creación-de-un-pipeline)
 - [5. Pipeline de ejemplo](#5-pipeline-de-ejemplo)
 - [6. Enlaces de interés para aprender más](#6-enlaces-de-interés-para-aprender-más)
-  
+
 ***
 
 ## 1. Introducción
@@ -351,5 +353,7 @@ De este modo, ya tendríamos nuestro pipeline listo para ser lanzado desde GoCD 
 - [Backups del Server GoCD](https://docs.gocd.org/current/advanced_usage/one_click_backup.html).
 - [Ampliación mediante plugins](https://docs.gocd.org/current/extension_points/).
 - [Configuración de roles y usuarios](https://docs.gocd.org/21.4.0/configuration/dev_authorization.html#specifying-permissions-for-pipeline-groups)
+
+</div>
 
 </div>

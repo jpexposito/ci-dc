@@ -28,7 +28,6 @@ Es posible que a los equipos también les convenga adquirir las herramientas ges
   - [Circleci](circleci)
   - [Team City](team-city)
   - [Bamboo](bamboo)
-  - [Codefresh.io](codefresh)
   - [GitLab CI/CD](gitlab-cidc)
   - [Bitbucket Pipelines](bitbucket-pipelines)
   - [GitHub CI/CD Marketplace](github-cidc)

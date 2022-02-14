@@ -1,3 +1,5 @@
+<div align="justify">
+
 <p align="center"><img src="https://user-images.githubusercontent.com/73592097/152687804-e294d7e9-9e97-4c92-b07d-c681542591d0.png" height="400px"></p>
 
 
@@ -19,7 +21,7 @@
 
 
 ### 1. ¿Qué es Travis CI? <img src="https://user-images.githubusercontent.com/73592097/152708940-3d61801f-c70d-4b38-8ea3-0a853d0a537c.png"/>  ###
-Es un sistema de Integración continua, nos permite crear,probar e implementar código de forma rápida y sencilla. Fundado en 2011 por la comunidad de Travis CI,Idera. Integrado con GitHub 
+Es un sistema de Integración continua, nos permite crear,probar e implementar código de forma rápida y sencilla. Fundado en 2011 por la comunidad de Travis CI,Idera. Integrado con GitHub
 <hr/>
 
 ### 2. Requisitos Previos <img src="https://user-images.githubusercontent.com/73592097/152683389-1050ea2e-94fd-490b-a62f-ff1b3bd328e2.png" width="50px" height="50px"/> ###  
@@ -38,7 +40,7 @@ Es un sistema de Integración continua, nos permite crear,probar e implementar c
   * Facebook
 
   <br/>
-En la página oficial de travis, vamos a registrarnos en el botón(llamado  **start today**) esquina superior derecha. 
+En la página oficial de travis, vamos a registrarnos en el botón(llamado  **start today**) esquina superior derecha.
 <img src="https://user-images.githubusercontent.com/73592097/152692062-6c763441-3f10-401b-85c4-9b7fdcddc5fa.PNG" width="800px"/>
 
 En esta página nos encontramos con distintas opciones de registro que nos permiten subir proyectos en un momento,en mi caso elegí GitHub.
@@ -55,7 +57,7 @@ Finalmente ya somos usuarios de Travis CI
 <hr/>
 
 
-### 4. Ventajas <img src="https://user-images.githubusercontent.com/73592097/152709215-66e882de-da1e-4fd9-81b3-956fbc224e6c.png"/> ### 
+### 4. Ventajas <img src="https://user-images.githubusercontent.com/73592097/152709215-66e882de-da1e-4fd9-81b3-956fbc224e6c.png"/> ###
 Las ventajas de usar travis son las siguientes:
  - **Gratuito** para Proyectos Open Source y de pago para proyectos privados.
  -  **Integración rápida** con GitHub.
@@ -93,9 +95,9 @@ Las ventajas de usar travis son las siguientes:
 Nos crearemos el repositorio de prueba para desplegar en Travis, la carpeta de configuración de travis se llama .**travis.yml**, que se coloca en el directorio raiz
 
 > - languaje-> indicamos el lenguaje a usar
-> - script -> script a lanzar 
+> - script -> script a lanzar
 
-> - branches-> ramas a supervisar 
+> - branches-> ramas a supervisar
 > - notifications-> se pueden hacer notificaciones de las pruebas por correo
 > - install -> aplicaciones a instalar
 
@@ -111,7 +113,7 @@ Fichero .travis.yml
 <img src="https://user-images.githubusercontent.com/73592097/152694406-82376921-6f33-49c7-9ebe-332a4785c23a.png" width="800px"/><img src="" width="800px"/>
 
 
-Script python 
+Script python
 
 <img src="https://user-images.githubusercontent.com/73592097/152694422-055b0f6f-04d4-44bd-a21c-eb8b8e18c11c.png" width="800px"/>
 
@@ -145,17 +147,17 @@ Seleccionamos un repositorio que contiene el fichero **.travis.yml** en la raiz
 
 ![image](https://user-images.githubusercontent.com/73592097/152787036-8a246326-31d7-472a-9272-d2c7c6af3194.png)
 
-Veremos los repositorios activos y en la segunda pestaña los que se ejecutan 
+Veremos los repositorios activos y en la segunda pestaña los que se ejecutan
 
 ![image](https://user-images.githubusercontent.com/73592097/152787771-365b1b81-a350-48f5-adf8-5b4662ddc0db.png)
 
 
-Una vez seleccionada vemos  la información del repositorio actual. 
+Una vez seleccionada vemos  la información del repositorio actual.
 
 ![image](https://user-images.githubusercontent.com/73592097/152787721-724b3f5b-e5dc-43f1-91a0-f8803f4e35b5.png)
 
 
-En la siguiente pestaña las ramas de GitHub, 
+En la siguiente pestaña las ramas de GitHub,
 
 ![image](https://user-images.githubusercontent.com/73592097/152788511-fef143ce-9851-402d-adca-19f35238d3bf.png)
 
@@ -190,3 +192,4 @@ Fuentes:
 - https://www.freecodecamp.org/espanol/news/como-automatizar-el-despliegue-en-github-pages-con-travis-cl/
 - https://www.coursera.org/lecture/continuous-integration/dockerization-on-travis-d9dl3
 
+</div>

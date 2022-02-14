@@ -1,4 +1,6 @@
-## **CircleCI**
+<div align="justify">
+
+# **CircleCI**
 
 **Neftalí Rodríguez Rodríguez**
 
@@ -67,25 +69,25 @@ solo por lo que vas a usar.
 
 Al acceder a CircleCI por primera vez nos pedirá crear una cuenta o acceder con GitHub.
 
-Al loguearnos, nos pedirá que le indiquemos que repositorio vamos a usar. 
-Una vez lo hayamos elegido nos creará un ejemplo de **Hello World** y lo ejecutará. 
-Como se ve en la imagen a continuación. 
+Al loguearnos, nos pedirá que le indiquemos que repositorio vamos a usar.
+Una vez lo hayamos elegido nos creará un ejemplo de **Hello World** y lo ejecutará.
+Como se ve en la imagen a continuación.
 
 
 ![](imagenes/2.png)
 
 ## **4. Parte 4**<a name="id4"></a>
 
-También podremos añadir otros repositorios si nos dirigimos al menú **"Projects"** 
+También podremos añadir otros repositorios si nos dirigimos al menú **"Projects"**
 
 ![](imagenes/7.PNG)
 
 ## **5. Parte 5**<a name="id5"></a>
 
 Si clicamos sobre el proyecto y luego en **"Project Settings"** podremos añadir Triggers para que se ejecute a determinadas horas,
-o bajo determinadas circunstancias, crear variables de entorno propias para usar dentro del proyecto, administrar las 
-notificaciones que vamos a recibir al desplegar el proyecto o incluso crear 
-"Badges" para añadir a páginas web o a documentos en Markdown que nos indican en tiempo real el estado de el último despliegue. 
+o bajo determinadas circunstancias, crear variables de entorno propias para usar dentro del proyecto, administrar las
+notificaciones que vamos a recibir al desplegar el proyecto o incluso crear
+"Badges" para añadir a páginas web o a documentos en Markdown que nos indican en tiempo real el estado de el último despliegue.
 Como este : [![CircleCI](https://circleci.com/gh/InKu3uS/CircleCI/tree/main.svg?style=svg)](https://circleci.com/gh/InKu3uS/CircleCI/tree/main)
 
 ![](imagenes/3.PNG)
@@ -149,3 +151,5 @@ numero de veces que se ha ejecutado, porcentaje de éxito, tiempo total de ejecu
 media de tiempo de ejecución y **"Tickets"** gastados dicho proyecto.
 
 ![](imagenes/13.PNG)
+
+</div>

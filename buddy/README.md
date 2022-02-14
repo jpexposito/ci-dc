@@ -1,3 +1,5 @@
+<div align="justify">
+
 # BUDDY (CI/CD)
 
 ## Indice
@@ -484,3 +486,5 @@ Para finalizar, el precio de su versión Pro y las características que nos ofre
 
 
 ##### Pagina Buddy: <a href="https://buddy.works/">https://buddy.works/</a>
+
+</div>

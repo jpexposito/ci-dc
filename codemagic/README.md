@@ -1,6 +1,7 @@
-﻿
+<div align="justify">﻿
 
-**CODEMAGIC**
+*CODEMAGIC**
+
 ![alt text](images_codemagic/Captura-2.PNG?raw=true)
 
 </br>
@@ -74,6 +75,7 @@ El día de hoy, os voy a hablar sobre la plataforma de despliegue de aplicacione
 
 ![alt text](images_codemagic/Captura-7.PNG?raw=true)
 
+<div>
 
 
 **REFERENCIAS**

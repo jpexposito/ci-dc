@@ -1,3 +1,5 @@
+<div align="justify">
+
 # **Bitbucket Pipelines**<a name = "id1"></a>
 
 ![Logo BitBucket](img/logo.png)
@@ -54,3 +56,5 @@ El siguiente paso será subirlo al repositorio y lanzarlo, como vemos, el result
 
 > GitHub personal:
 > https://github.com/rguezgiova/
+
+<div align="justify">
