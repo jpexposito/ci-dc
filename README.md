@@ -12,6 +12,8 @@
 
   En concreto, el proceso de integración y distribución continuas incorpora la automatización y la supervisión permanentes en todo el ciclo de vida de las aplicaciones, desde las etapas de integración y prueba hasta las de distribución e implementación. Este conjunto de prácticas se conoce como "canales de CI/CD" y cuenta con el respaldo de los equipos de desarrollo y de operaciones que trabajan en conjunto de manera ágil, con un enfoque de DevOps o de ingeniería de confiabilidad del sitio (SRE).
 
+## Objetivo
+
   El presente repositorio tiene como objetivo la descripción de distintas herramientas para la realización de ___CI-DC___. Es un repositorio colaborativo, de trabajo en equipo.
 
 ## Herramientas
