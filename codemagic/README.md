@@ -51,7 +51,9 @@ El día de hoy, os voy a hablar sobre la plataforma de despliegue de aplicacione
 
   Sentencias para desplegar nuestra aplicacion, en este caso, _echo “Hello World!”_.
 
+
 ## Ejemplo de Pipeline
+
 
 ![alt text](images_codemagic/Captura-1.PNG?raw=true)
 
