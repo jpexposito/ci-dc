@@ -36,7 +36,6 @@ Es posible que a los equipos también les convenga adquirir las herramientas ges
   - [AWS Amplify](aws-amplify)
   - [Azure Pipelines](azure-pipelines)
   - [Buildkite](buildkite)
-  - [CloudBees](cloudbees)
   - [Netlify](netlify)
   - [Heroku](heroku)
   - [GoCD](gocd)
