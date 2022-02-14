@@ -9,7 +9,6 @@
 [Herramientas con las que se relaciona](#id4)<br>
 [Definición de un Pipeline](#id5)<br>
 [Ejemplo de un Pipeline](#id6)<br>
-[Conclusión](#id7)<br>
 
 ## **Introducción**<a name="id3"></a>
 BitBucket es una herramienta de alojamiento de código
@@ -46,3 +45,12 @@ es el siguiente:
 El siguiente paso será subirlo al repositorio y lanzarlo, como vemos, el resultado es correcto.
 
 ![Pipeline correcto](img/3.png)
+
+> Documentación oficial (Español):
+> https://www.atlassian.com/es/software/bitbucket
+
+> Documentación oficial (Inglés):
+> https://bitbucket.org/product/
+
+> GitHub personal:
+> https://github.com/rguezgiova/
