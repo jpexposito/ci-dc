@@ -2,7 +2,7 @@
 
 # **Bitbucket Pipelines**<a name = "id1"></a>
 
-![Logo Wercker](img/Wercker logo.jpeg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20logo.jpeg)
 
 ## **Índice**<a name = "id2"></a>
 [Portada](#id1)<br>
