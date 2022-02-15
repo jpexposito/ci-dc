@@ -15,7 +15,7 @@
 ## **Introducción**<a name="id3"></a>
 Wercker es una herramienta de Integración Continua (CI) y Despliegue Continuo
 (CD), fundada en 2012 que ayuda a los desarrolladores a crear, probar e
-implementar las aplicaciones. Estos contenedores se pueden
+implementar las aplicaciones. Estas apliaciones se pueden
  automatizar los procesos de creación e
 implementación, probando dichos procesos y después implementarlos en varias
 plataformas en la nube, como Heroku, AWS y Rackspace. Además, es propiedad de
