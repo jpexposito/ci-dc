@@ -26,19 +26,46 @@ Los lenguajes de programación con los que son compatibles son:
 Python, Goland (Go), Java (Grandle o Maven), NodeJS y Ruby.
 
 ## **Identificación**<a name="id5"></a>
-Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, logueamos con Github. Nos pedirá la autorización de usar nuestra cuenta de Github, y poniendo el nombre de usuario que queremos tener en Wercker y contraseña.
+Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, logueamos con Github. 
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%201.jpg)
+ 
+Nos pedirá la autorización de usar nuestra cuenta de Github, y poniendo el nombre de usuario que queremos tener en Wercker y contraseña.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%202.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%203.jpg)
 
 Una vez realizado, podemos crear una aplicación: en este caso, haremos la aplicación mítica Hola Mundo.
 
-## **Ejemplo**<a name="id6"></a>
-Nos mostrará cuál es el repositorio de Github que queremos vincular, luego la clave SSH que por defecto Wercker recomienda no usarlo, y ya con esto creamos el proyecto.
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%204.jpg)
 
-Se nos pedirá en qué lenguaje queremos ejecutar el Hola Mundo, y en este caso, usamos Goland (Go). Para ello, en nuestro repositorio de Github creamos un archivo YAML llamado wercker.yml, donde ponemos el código YAML
+## **Ejemplo**<a name="id6"></a>
+Nos mostrará cuál es el repositorio de Github que queremos vincular:
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%205.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%206.jpg)
+ 
+Luego la clave SSH que por defecto Wercker recomienda no usarlo, y ya con esto creamos el proyecto.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%207.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%208.jpg)
+
+Se nos pedirá en qué lenguaje queremos ejecutar el Hola Mundo, y en este caso, usamos Goland (Go). 
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%209.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2010.jpg)
+
+Para ello, en nuestro repositorio de Github creamos un archivo YAML llamado wercker.yml, donde ponemos el código YAML.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2011.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2012.jpg)
 
 Una vez commiteado el repositorio, automáticamente Wercker empieza a hacer los procesos de trabajo para verificar que nuestra aplicación se encuentra en perfecto estado.
 
 Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que tendremos los datos de la aplicación a través de una API.
 
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2013.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2014.jpg)
 
 > Página oficial:
 > https://app.wercker.com/
