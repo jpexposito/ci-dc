@@ -1,6 +1,6 @@
 <div align="justify">
 
-# **Bitbucket Pipelines**<a name = "id1"></a>
+# **Wercker**<a name = "id1"></a>
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20logo.jpeg)
 
