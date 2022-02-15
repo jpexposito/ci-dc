@@ -64,8 +64,8 @@ Una vez commiteado el repositorio, automáticamente Wercker empieza a hacer los 
 
 Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que tendremos los datos de la aplicación a través de una API.
 
-![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2013.jpg)
-![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2014.jpg)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2013.png)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2014.png)
 
 > Página oficial:
 > https://app.wercker.com/
