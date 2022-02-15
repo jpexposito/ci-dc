@@ -40,11 +40,13 @@ Una vez commiteado el repositorio, automáticamente Wercker empieza a hacer los 
 Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que tendremos los datos de la aplicación a través de una API.
 
 
-> Documentación oficiaL:
+> Página oficial:
 > https://app.wercker.com/
+
+> Documentación
 > https://en.wikipedia.org/wiki/Wercker
 
-> GitHub personal:
+> GitHub:
 > https://github.com/Jorgeev27/
 
 <div align="justify">
