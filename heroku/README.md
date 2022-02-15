@@ -93,10 +93,10 @@ Con estos sencillos pasos tendremos nuestra aplicación desplegada en un corto p
 manera bastante sencilla, si en algún momento te parece que he obviado algún punto importante, los pasos a seguir están muy bien
 explicados en su [documentación oficial](https://devcenter.heroku.com/articles/getting-started-with-nodejs).
 
-## Despliegue continuo e integración continua CD/CI
+## Despliegue continuo e integración continua CI/CD
 ![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/1.png)
 
-Con heroku los procesos de CD/CI, además de poder codificar complejos scrips gracias a su cli y su fichero de configuración llamado Procfile, también pueden llevarse a cabo de forma visual sin perder funcionalidad. Tiene una GUI muy completa, en la que podremos definir nuestros pipelines a través de los dynos y tambien ejecutar test de integración en cada despliegue, eso si, activando la opción correspondiente en la configuración de nuestra cuenta y este servicio puede hacer cargos en nuestra cuenta, en mi caso me ha cobrado 1,19€ y he realizado al rededor de 12 despliegues con test de integración.
+Con heroku los procesos de CI/CD, además de poder codificar complejos scrips gracias a su cli y su fichero de configuración llamado Procfile, también pueden llevarse a cabo de forma visual sin perder funcionalidad. Tiene una GUI muy completa, en la que podremos definir nuestros pipelines a través de los dynos y tambien ejecutar test de integración en cada despliegue, eso si, activando la opción correspondiente en la configuración de nuestra cuenta y este servicio puede hacer cargos en nuestra cuenta, en mi caso me ha cobrado 1,19€ y he realizado al rededor de 12 despliegues con test de integración.
 
 
 Como ya tenemos una aplicación desplegada en heroku, lo unico que debemos hacer es dirigirnos al dashboard, pulsamos en el botón que pone new,![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/7.png)  y seleccionamos la opción que dice create new pipeline. ![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/8.png) Y se nos abrirá una ventana con un formulario simiral al descrito en la imagen, en el que definiremos el nombre del pipeline y el repositorio en el que se apoyará para realizar los despliegues, a estas alturas es mejor ya utilizar un repositorio en GitHub, ya que nos dará mayor control de los versionados.
@@ -116,5 +116,13 @@ Después de añadir la aplicación creada anteriormente en el pipeline, ya podri
 
 ![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/3.png)
 
+## Precios
 
+![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/12.png)
+
+## Servicio desplegado
+
+![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/10.png)
+![](https://raw.githubusercontent.com/ciscoDIZ/auth-api-express/master/img/11.png)
+  
 </div>
