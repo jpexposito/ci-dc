@@ -10,8 +10,9 @@
 [Introducción](#id3)<br>
 [Lenguajes con los que trabaja](#id4)<br>
 [Wercker vs Jenkins](#id5)<br>
-[Identificación](#id6)<br>
-[Ejemplo](#id7)<br>
+[Creación de un Pipeline y Workflow](#id6)<br>
+[Identificación](#id7)<br>
+[Ejemplo](#id8)<br>
 
 ## **Introducción**<a name="id3"></a>
 Wercker es una herramienta de Integración Continua (CI) y Despliegue Continuo
@@ -28,7 +29,6 @@ Python, Goland (Go), Java (Grandle o Maven), NodeJS y Ruby.
 
 ## **Wercker vs Jenkins**<a name="id5"></a>
 
-
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20vs%20Jenkins.jpg)
 
  - Wercker: automatiza la creación de los pipelines, probándolo e implementandolo 
@@ -40,7 +40,7 @@ y puedes trabajar desde la propia página.
 respaldar la creación y prueba de cualquier proyecto que se realice. 
 Tiene una instalación y configuración fácil, y un soporte de conjunto de cambios.
 
-## **Identificación**<a name="id6"></a>
+## **Identificación**<a name="id7"></a>
 Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, nos vamos a loguear con Github. 
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%201.jpg)
@@ -54,7 +54,12 @@ Una vez realizado, podemos crear una aplicación: en este caso, haremos la aplic
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%204.jpg)
 
-## **Ejemplo**<a name="id6"></a>
+## **Creación de un Pipeline y Workflow **<a name="id7"></a>
+Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el Pipeline y Workflow. Pero si queremos hacer un nuevo Pipeline y Workflow, iremos a la pestaña workflows y seleccionas añadir pipeline; donde añadimos el nombre que queremos poner y el archivo YAML.
+
+Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
+
+## **Ejemplo**<a name="id8"></a>
 Nos mostrará cuál es el repositorio de Github que queremos vincular, en este caso, será nuestro repositorio de Wercker-hello-world:
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%205.jpg)
