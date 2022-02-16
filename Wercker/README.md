@@ -28,12 +28,15 @@ Python, Goland (Go), Java (Grandle o Maven), NodeJS y Ruby.
 
 ## **Wercker vs Jenkins**<a name="id5"></a>
 
-Wercker: automatiza la creación de los pipelines, probándolo e implementandolo 
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20vs%20Jenkins.jpg)
+
+ - Wercker: automatiza la creación de los pipelines, probándolo e implementandolo 
 en las aplicaciones y también, de contenedores Docker. Sus flujos de trabajo pueden 
 encadenarse y activar una colección de canalizaciones. No necesita instalación, 
 y puedes trabajar desde la propia página.
 
-Jenkins: servidor de código abierto y proporciona más de 300 complementos para 
+ - Jenkins: servidor de código abierto y proporciona más de 300 complementos para 
 respaldar la creación y prueba de cualquier proyecto que se realice. 
 Tiene una instalación y configuración fácil, y un soporte de conjunto de cambios.
 
