@@ -23,7 +23,6 @@ Las herramientas de CI/CD son útiles para que los equipos automaticen el desarr
 Una de las herramientas open source más conocidas para la CI/CD es el servidor de automatización __Jenkins__, cuyo diseño permite _gestionar cualquier sistema_, desde un servidor sencillo de __CI__ hasta un centro completo de __CD__.
 
 Es posible que a los equipos también les convenga adquirir las herramientas gestionadas de CI/CD, que ofrecen muchos proveedores. Sobre algunas de ellas se ha realizado un pequeño análisis y ejemplo de uso. A continuación se muestran:
-  - [Content Cell](content-cell)
   - [Travis CI](travis)
   - [Circleci](circleci)
   - [Team City](team-city)
@@ -33,11 +32,11 @@ Es posible que a los equipos también les convenga adquirir las herramientas ges
   - [GitHub CI/CD Marketplace](github-cidc)
   - [AWS CodePipeline](aws-codePipeline)
   - [AWS Amplify](aws-amplify)
-  - [Azure Pipelines](azure-pipelines)
   - [Buildkite](buildkite)
   - [Netlify](netlify)
   - [Heroku](heroku)
   - [GoCD](gocd)
+  - [wercker](wercker)
 
 ## Referencias
   - [IC-DC](https://devopsti.wordpress.com/2014/09/26/integracion-continua-ci-entrega-continua-cd-y-despliegue-continuo-cd/).
