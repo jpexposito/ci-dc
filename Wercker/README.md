@@ -9,8 +9,11 @@
 [Índice](#id2)<br>
 [Introducción](#id3)<br>
 [Lenguajes con los que trabaja](#id4)<br>
-[Identificación](#id5)<br>
-[Ejemplo](#id6)<br>
+[Wercker vs Jenkins](#id5)<br>
+[Identificación](#id6)<br>
+[Ejemplo](#id7)<br>
+[Creación de un Pipeline y Workflow](#id8)<br>
+
 
 ## **Introducción**<a name="id3"></a>
 Wercker es una herramienta de Integración Continua (CI) y Despliegue Continuo
@@ -25,7 +28,20 @@ Oracle desde 2017.
 Los lenguajes de programación con los que son compatibles son los siguientes:
 Python, Goland (Go), Java (Grandle o Maven), NodeJS y Ruby.
 
-## **Identificación**<a name="id5"></a>
+## **Wercker vs Jenkins**<a name="id5"></a>
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20vs%20Jenkins.jpg)
+
+ - Wercker: automatiza la creación de los pipelines, probándolo e implementandolo 
+en las aplicaciones y también, de contenedores Docker. Sus flujos de trabajo pueden 
+encadenarse y activar una colección de canalizaciones. No necesita instalación, 
+y puedes trabajar desde la propia página.
+
+ - Jenkins: servidor de código abierto y proporciona más de 300 complementos para 
+respaldar la creación y prueba de cualquier proyecto que se realice. 
+Tiene una instalación y configuración fácil, y un soporte de conjunto de cambios.
+
+## **Identificación**<a name="id6"></a>
 Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, nos vamos a loguear con Github. 
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%201.jpg)
@@ -39,7 +55,7 @@ Una vez realizado, podemos crear una aplicación: en este caso, haremos la aplic
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%204.jpg)
 
-## **Ejemplo**<a name="id6"></a>
+## **Ejemplo**<a name="id7"></a>
 Nos mostrará cuál es el repositorio de Github que queremos vincular, en este caso, será nuestro repositorio de Wercker-hello-world:
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%205.jpg)
@@ -67,11 +83,27 @@ Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que ten
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2013.png)
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2014.png)
 
+## **Creación de un Pipeline y Workflow **<a name="id8"></a>
+Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el Pipeline y Workflow. Pero si queremos hacer un nuevo Pipeline y Workflow, iremos a la pestaña workflows y seleccionas añadir pipeline; donde añadimos el nombre que queremos poner y el archivo YAML.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline.png)
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline%202.png)
+
+Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow.png)
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow%202.png)
+
 > Página oficial:
 > https://app.wercker.com/
 
 > Documentación
 > https://en.wikipedia.org/wiki/Wercker
+
+> Wercker vs Jenkins
+> https://stackshare.io/stackups/jenkins-vs-wercker
 
 > GitHub:
 > https://github.com/Jorgeev27/
