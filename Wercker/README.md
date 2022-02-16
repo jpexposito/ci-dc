@@ -92,7 +92,7 @@ Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el 
 
 Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
 
-![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker Workflow.png)
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow.png)
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow%202.png)
 
