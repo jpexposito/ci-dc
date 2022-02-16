@@ -88,6 +88,9 @@ Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que ten
 > Documentación
 > https://en.wikipedia.org/wiki/Wercker
 
+> Wercker vs Jenkins
+> https://stackshare.io/stackups/jenkins-vs-wercker
+
 > GitHub:
 > https://github.com/Jorgeev27/
 
