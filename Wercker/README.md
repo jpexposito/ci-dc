@@ -9,8 +9,9 @@
 [Índice](#id2)<br>
 [Introducción](#id3)<br>
 [Lenguajes con los que trabaja](#id4)<br>
-[Identificación](#id5)<br>
-[Ejemplo](#id6)<br>
+[Wercker vs Jenkins](#id5)<br>
+[Identificación](#id6)<br>
+[Ejemplo](#id7)<br>
 
 ## **Introducción**<a name="id3"></a>
 Wercker es una herramienta de Integración Continua (CI) y Despliegue Continuo
@@ -25,7 +26,18 @@ Oracle desde 2017.
 Los lenguajes de programación con los que son compatibles son los siguientes:
 Python, Goland (Go), Java (Grandle o Maven), NodeJS y Ruby.
 
-## **Identificación**<a name="id5"></a>
+## **Wercker vs Jenkins**<a name="id5"></a>
+
+Wercker: automatiza la creación de los pipelines, probándolo e implementandolo 
+en las aplicaciones y también, de contenedores Docker. Sus flujos de trabajo pueden 
+encadenarse y activar una colección de canalizaciones. No necesita instalación, 
+y puedes trabajar desde la propia página.
+
+Jenkins: servidor de código abierto y proporciona más de 300 complementos para 
+respaldar la creación y prueba de cualquier proyecto que se realice. 
+Tiene una instalación y configuración fácil, y un soporte de conjunto de cambios.
+
+## **Identificación**<a name="id6"></a>
 Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, nos vamos a loguear con Github. 
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%201.jpg)
