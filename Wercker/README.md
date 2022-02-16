@@ -55,12 +55,6 @@ Una vez realizado, podemos crear una aplicación: en este caso, haremos la aplic
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%204.jpg)
 
-Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
-
-![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker Workflow.png)
-
-![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow%202.png)
-
 ## **Ejemplo**<a name="id7"></a>
 Nos mostrará cuál es el repositorio de Github que queremos vincular, en este caso, será nuestro repositorio de Wercker-hello-world:
 
@@ -95,6 +89,12 @@ Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline.png)
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline%202.png)
+
+Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker Workflow.png)
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow%202.png)
 
 > Página oficial:
 > https://app.wercker.com/
