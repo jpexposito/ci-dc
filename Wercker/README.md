@@ -10,9 +10,10 @@
 [Introducción](#id3)<br>
 [Lenguajes con los que trabaja](#id4)<br>
 [Wercker vs Jenkins](#id5)<br>
-[Creación de un Pipeline y Workflow](#id6)<br>
-[Identificación](#id7)<br>
-[Ejemplo](#id8)<br>
+[Identificación](#id6)<br>
+[Ejemplo](#id7)<br>
+[Creación de un Pipeline y Workflow](#id8)<br>
+
 
 ## **Introducción**<a name="id3"></a>
 Wercker es una herramienta de Integración Continua (CI) y Despliegue Continuo
@@ -40,7 +41,7 @@ y puedes trabajar desde la propia página.
 respaldar la creación y prueba de cualquier proyecto que se realice. 
 Tiene una instalación y configuración fácil, y un soporte de conjunto de cambios.
 
-## **Identificación**<a name="id7"></a>
+## **Identificación**<a name="id6"></a>
 Para identificarse es muy fácil: podemos crearnos una cuenta, o incluso vincular nuestra cuenta de Github o Oracle Cloud. En este caso, nos vamos a loguear con Github. 
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%201.jpg)
@@ -54,12 +55,13 @@ Una vez realizado, podemos crear una aplicación: en este caso, haremos la aplic
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%204.jpg)
 
-## **Creación de un Pipeline y Workflow **<a name="id7"></a>
-Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el Pipeline y Workflow. Pero si queremos hacer un nuevo Pipeline y Workflow, iremos a la pestaña workflows y seleccionas añadir pipeline; donde añadimos el nombre que queremos poner y el archivo YAML.
-
 Una vez realizado, creamos el workflow; donde dejamos todo por defecto y seleccionamos sólo el pipeline que acabamos de crear.
 
-## **Ejemplo**<a name="id8"></a>
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker Workflow.png)
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Workflow%202.png)
+
+## **Ejemplo**<a name="id7"></a>
 Nos mostrará cuál es el repositorio de Github que queremos vincular, en este caso, será nuestro repositorio de Wercker-hello-world:
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%205.jpg)
@@ -86,6 +88,13 @@ Para finalizar, se nos mostrará que nuestra aplicación ha dado el OK y que ten
 
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2013.png)
 ![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%2014.png)
+
+## **Creación de un Pipeline y Workflow **<a name="id8"></a>
+Por defecto, una vez realizado el YAML del proyecto, te realiza directamente el Pipeline y Workflow. Pero si queremos hacer un nuevo Pipeline y Workflow, iremos a la pestaña workflows y seleccionas añadir pipeline; donde añadimos el nombre que queremos poner y el archivo YAML.
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline.png)
+
+![](https://github.com/Jorgeev27/ci-dc/blob/main/Wercker/img/Wercker%20Pipeline%202.png)
 
 > Página oficial:
 > https://app.wercker.com/
